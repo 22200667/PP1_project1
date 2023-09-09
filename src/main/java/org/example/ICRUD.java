@@ -1,8 +1,8 @@
 package org.example;
 
 public interface ICRUD {
-    int add();
-    int update();
-    int delete();
-    void select(Object o);
+    public Object add();
+    public int update(Object o);
+    public int delete(Object o);
+    public void select(Object o);
 }
