@@ -7,7 +7,7 @@ public class Main {
         // Press Opt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         new WordManager().selectMenu();
-
+        System.out.println("프로그램 종료! 다음에 만나요~ ");
 
 
     }

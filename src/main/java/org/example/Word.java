@@ -28,7 +28,10 @@ public class Word {
     }
     @Override
     public String toString(){
-        String str = hardness+"|"+word+"|"+mean;
+        String str = "";
+        for(int i=0; i<hardness; i++) str+="*";
+        str = String.format("%-3s", str)+
+                String.format("%15s", word)+"   "+mean;
         return str;
     }
 }
