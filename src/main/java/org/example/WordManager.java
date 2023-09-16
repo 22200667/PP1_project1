@@ -10,6 +10,7 @@ public class WordManager {
     void selectMenu(){
         System.out.print("***영단어 마스터***\n\n");
         Scanner scanner = new Scanner(System.in);
+        crud.loadFile();
         while(true) {
             System.out.print(
                     "**********************\n" +
@@ -27,9 +28,25 @@ public class WordManager {
 
             if (nm == 1) {
                 crud.listAll();
-            } else if (nm == 4) {
+            }
+            else if (nm == 2){
+                crud.searchLevel();
+            }
+            else if (nm == 3){
+                crud.searchWord();
+            }
+            else if (nm == 4) {
 
                 crud.add();
+            }
+            else if (nm == 5){
+                crud.update(null);
+            }
+            else if (nm == 6){
+                crud.delete(null);
+            }
+            else if (nm == 7){
+
             }
             else if(nm==0){
                 break;

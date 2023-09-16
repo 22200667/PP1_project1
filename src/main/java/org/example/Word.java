@@ -4,6 +4,13 @@ public class Word {
     private int hardness;
     private String word, mean;
 
+    public Word(){}
+    public Word(int i, int level, String word, String meaning) {
+        hardness = level;
+        this.word = word;
+        mean = meaning;
+    }
+
     public void setHardness(int hardness){
         this.hardness=hardness;
     }
