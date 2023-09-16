@@ -41,4 +41,8 @@ public class Word {
                 String.format("%15s", word)+"   "+mean;
         return str;
     }
+
+    public String toFileString() {
+        return this.hardness+"|"+this.word+"|"+this.mean;
+    }
 }

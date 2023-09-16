@@ -40,13 +40,13 @@ public class WordManager {
                 crud.add();
             }
             else if (nm == 5){
-                crud.update(null);
+                crud.updateItem();
             }
             else if (nm == 6){
-                crud.delete(null);
+                crud.deleteItem();
             }
             else if (nm == 7){
-
+                crud.saveFile();
             }
             else if(nm==0){
                 break;

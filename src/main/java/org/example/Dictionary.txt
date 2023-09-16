@@ -1,0 +1,9 @@
+1|air conditioning|에어컨
+1|art|미술
+1|artist|예술가
+3|baby’s breath|안개꽃
+1|badminton|배드민턴
+1|baseball|배드민턴
+1|basketball|농구
+2|biology|생물학
+1|black|검정
